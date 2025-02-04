@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Formulario</title>
+    </head>
+    <body>
+        <h1>Formulario</h1>
+        <form action="Formulario.html" method="get">
+            <label for="txtPrimerNombre">Primer Nombre</label>
+            <input type="text" name="txtPrimerNombre" id="txtPrimerNombre" placeholder="Primer Nombre" title="Primer nombre del solicitante de la transaccion xyz"/>
+
+            <br>
+            <br>
+
+            <label for="txtApellidoPaterno">Apellido Paterno</label>
+            <input type="text" name="txtApellidoPaterno" id="txtApellidoPaterno" placeholder="Apellido Paterno" title="Primer apellido del solicitante de la transaccion xyz"/>
+
+            <br>
+            <br>
+
+            <label for="intEdad">Edad</label>
+            <input type="number" name="intEdad" id="intEdad" min="0" max="100" step="5" value="0" placeholder="Edad" title="Edad del solicitante de la transaccion xyz"/>
+
+            <br>
+            <br>
+
+            <label for="Password">Contraseña</label>
+            <input type="password" name="Password" id="Password" placeholder="8 caracteres, 1 Mayuscula, 1 simbolo." title="Contraseña del solicitante de la transaccion xyz"/>
+
+            <br>
+            <br>
+
+            <label>Color preferido</label>
+            <input type="radio" name="rdbColor" id="rdbColorRojo" value="Rojo" checked/>
+            <label for="rdbColorRojo">Rojo</label>
+            <input type="radio" name="rdbColor" id="rdbColorAzul" value="Azul">
+            <label for="rdbColorAzul">Azul</label>
+            <input type="radio" name="rdbColor" id="rdbColorVerde" value="Verde">
+            <label for="rdbColorVerde">Verde</label>
+        </form>
+    </body>
+</html>
