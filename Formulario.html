@@ -20,7 +20,7 @@
             <br>
 
             <label for="intEdad">Edad</label>
-            <input type="number" name="intEdad" id="intEdad" min="0" max="100" step="5" value="0" placeholder="Edad" title="Edad del solicitante de la transaccion xyz"/>
+            <input type="number" name="intEdad" id="intEdad" min="0" max="100"78k, value="0" placeholder="Edad" title="Edad del solicitante de la transaccion xyz"/>
 
             <br>
             <br>
@@ -38,6 +38,33 @@
             <label for="rdbColorAzul">Azul</label>
             <input type="radio" name="rdbColor" id="rdbColorVerde" value="Verde">
             <label for="rdbColorVerde">Verde</label>
+            
+            <br>
+            <br>
+
+            <label for="cboPaises">País de Origen:</label>
+            <select name="cboPaises" id="cboPaises">
+                <option value="HND">Honduras</option>
+                <option value="ELS">El Salvador </option>
+                <option value="NIC">Nicaragua</option>
+                <option value="GTL">Guatemala</option>
+                <option value="CTR" selected>Costa Rica</option>
+                <option value="ARG">Argentina</option>
+                <option value="CHI">Chile</option>
+            </select>
+
+            <br>
+            <br>
+
+            <label for="txtBio">Bio Descripción</label>
+            <textarea name="txtBio" id="txtBio" cols="50" rows="8" placeholder="Bio Descripción"></textarea>
+
+            <br>
+            <br>
+            
+            <input type="submit" name="btnEnviar" id="btnEnviar" value="Enviar"/>
+
+            <button type="submit" id="btnEnviar2" name="btnEnviar2">&#x1F49A;Enviar</button>
         </form>
     </body>
 </html>
