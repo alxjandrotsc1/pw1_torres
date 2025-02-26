@@ -1,5 +1,5 @@
 *{
-    box-sizing: border-box;
+   box-sizing: border-box;
 }
 
 body{
@@ -33,12 +33,9 @@ header nav ul li a{
     text-decoration: none;
     text-align: center;
     background-color: darkgreen;
+    
 }
 
-h3{
-    color: chocolate;
-    background-color: darkgreen;
-}
 
 p{
     line-height: 1.5em;
@@ -58,7 +55,87 @@ header div img{
     margin: 0.1rem 0.5rem;
 }
 
-#demo{
-    display: inline-block;
-    padding: 0.75rem 1.5rem;;
+
+
+header nav ul a:hover{
+    background-color: beige;
+    color: black;
+}
+
+.contenedor{
+    max-width: 1024px;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    }
+
+.card{
+    width: 320px;
+    border: 1px solid black;
+    border-radius: 9px;
+    box-shadow: 3px 5px 5px #000;
+}
+
+.card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card .cardBody{
+    padding: 0.5rem;
+}
+
+.card .cardFooter button{
+    background-color: darkcyan;
+    color: white;
+    width: 100%;
+    border: 1px solid darkslateblue;
+    padding: 0.85rem 0.75rem;
+}
+
+.demoEMRem {
+    font-size: 2rem;
+}
+
+.demoEMRem p {
+    font-size: 2rem;
+}
+
+.listaspuntos{
+    list-style: none;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+
+
+.listaspuntos li{
+    margin: 1rem 0rem;
+}
+
+.listaspuntos li div{
+    background-color: darkcyan;
+    padding: 0.8rem 0.5rem;
+    color: white;
+    border: 1px solid black;
+    width: 200px;
+}
+
+.listaspuntos li div img .listaspuntos li div span{
+    display: block;
+}
+
+.listaspuntos2{
+    list-style: none;
+    padding: 10px;
 }
